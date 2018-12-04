@@ -41,4 +41,6 @@ console.log(3 >= 2); // greater than or equal to
 console.log(3 <= 2); // less than or equal to
 
 console.log(2 || 3); // OR operator
+
+console.log(2 && 3); // AND operator
 /************************************************* */
