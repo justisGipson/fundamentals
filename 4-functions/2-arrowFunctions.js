@@ -36,12 +36,3 @@ function capitalName(name){
 };
 const newName = capitalName('jusTIS');
 console.log(`${newName} is my name.`);
-
-// Challenge- make a tip calculator using a function, have it return that value, capture the returned value in a variable, print that variable...
-const tipCalc = (bill) => {
-    tip = (bill * 0.2)
-   return Math.floor(tip);
-};
-
-let totalTip = tipCalc(55.50);
-console.log(totalTip);
