@@ -54,4 +54,18 @@ let spaceJam = {
   }
 }
 
-console.log(Object.keys(spaceJam.toonSquad));
+// console.log(Object.keys(spaceJam.toonSquad));
+console.log(Object.values(spaceJam.nbaPlayers.newYorkNicks));
+
+let garden = {
+  vegetable: 'zucchini',
+  flower: 'sun flower',
+  fruit: 'grape',
+  water: true,
+  sun: true,
+  size: 10
+};
+
+// console.log(garden.vegetable);
+x = garden.vegetable;
+console.log(x)
