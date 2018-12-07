@@ -1,23 +1,14 @@
-/*
-var student = {
-    name: "Peter",
-    awesome: true,
-    degree: "JavaScript"        this doesnt work! Objects are not iterable!
-};
-
+var student = {name:'Peter', awesome: true, degree: 'JavaScript'};
 for(item of student){
     console.log(item);
-}
-*/
+};
 
-let catArray = ["Tabby", "Burmese", "Ragdoll", "tortie"];
-
+var catArray = ['tabby', 'burmese', 'tortie'];
 for(cat of catArray){
     console.log(cat);
-}
+};
 
-let heroArray = ["Superman", "Batman", "Wonder Woman"];
-
-for(hero of heroArray){
-    console.log(`${hero} is super cool!`);    //${hero} is a template string
+let heroes = ['Superman', 'Batman', 'Wonder Woman'];
+for(hero of heroes){
+    console.log(`${hero} is super cool!`);
 };
