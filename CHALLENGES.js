@@ -34,3 +34,16 @@ let movies = ['Aliens', 'Dune', 'Star Wars', '36 Chambers', 'Back to the Future'
 console.log(movies instanceof Array === true)
 movies.reverse(movies);
 movies.forEach(m => {console.log(m); });
+
+// Make a function that takes in two arrays, and adds the first arry to the second
+
+var arr1 = [1, 2, 3, 4, 5];
+var arr2 = [6, 7, 8, 9, 10];
+function addArray (one, two) {
+    for (let i = 0; i < two.length; i ++){
+        one.push(two[i]);
+    }
+    return one;
+};
+let newArray = addArray(arr1, arr2);
+console.log(newArray);
